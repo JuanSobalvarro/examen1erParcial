@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Login</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Main Card -->
+    <form class="login-container" action="/login" method="POST">
+        <!-- Left Side -->
+        <div class="login-form">
+            <!-- Login title with a little divisor line -->
+            <div class="login-title">
+                <h1>Login</h1>
+                <hr class="login-line">
+            </div>
+            <!-- Email field with icon and placeholder -->
+            <div class="input-group">
+                <img src="images/email.png" alt="Email Icon" class="input-icon">
+                <input type="text" name="email" placeholder="Ingrese su email" required>
+            </div>
+            <!-- Password field with placeholder -->
+            <div class="input-group">
+                <img src="images/password.png" alt="Password Icon" class="input-icon">
+                <input type="password" name="password" placeholder="Ingrese su clave" required>
+            </div>
+            <!-- Forgot password link -->
+            <div class="forgot-password">
+                <a href="#" style="text-decoration: none; color: #7a00FF; font-size: 12px;">¿Olvidó su clave?</a>
+            </div>
+            <!-- Login button -->
+            <div class="login-button">
+                <button type="submit">Ingresar</button>
+            </div>
+            <!-- Sign up link -->
+            <div class="signup-link">
+                ¿Aún no tienes una cuenta? 
+                <a href="#" style="text-decoration: none; color: #7a00FF; font-weight: bold;">Regístrate ahora</a>
+            </div>
+        </div>
+        <!-- Right Side -->
+        <div class="login-image">
+            <div class="login-image-txt-container">
+                <div class="login-image-txt-container-txt">
+                    <b>Aprendemos para Servir</b>
+                    <p>Vamos a conectarnos</p>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
