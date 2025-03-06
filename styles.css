@@ -1,0 +1,128 @@
+/* Login styles for a login form, with background purple, a centered card with a left form and right image*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #7a00cc;
+}
+
+/* Login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    content: fit-content;
+    align-items: center;
+    height: 25rem;
+    width: 50rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* login line hr */
+hr.login-line {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    width: 10%;
+    border: 2px solid #7a00cc;
+}
+
+/* Login form left side */
+.login-container .login-form {
+    width: 70%;
+    padding: 40px;
+}
+
+/* Login form header */
+.login-container .login-form h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+/* Login form input */
+.login-container .login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+}
+
+.login-container .login-form input:focus {
+    outline: none;
+}
+
+/* Input group should have a line at the bottom */
+.login-container .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #aaaaaa;
+    margin-top: 10px;
+}
+
+.login-container .input-group:hover {
+    border-bottom: 3px solid #777777;
+}
+
+/* Login form button */
+.login-container .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7a00cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Login form button:hover */
+.login-container .login-form button:hover {
+    background-color: #7a00aa;
+}
+
+.login-container .forgot-password {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.login-container .signup-link {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
+/* Login image (right side) */
+.login-container .login-image {
+    height: 25rem;
+    width: 40rem;
+    background: url('images/hero.png') center center no-repeat;
+    background-size: cover;
+}
+
+
+.login-container .login-image .login-image-txt-container {
+    height: 100%;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    background: #7a00cc44;
+    padding: 10px;
+    z-index: 2;
+}
+
+.login-container .login-image .login-image-txt-container-txt {
+    padding-top: 40%;
+}
+
+.login-container .input-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
